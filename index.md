@@ -1,11 +1,8 @@
 # Shuttle Motion Simulator
-The Shuttle Motion Simulator uses a cable controlled model shuttle to simulate landing and docking maneuvers. It is a simple way to model real-world docking events.
+The Shuttle Motion Simulator uses a cable controlled model shuttle to simulate landing and docking maneuvers. It is a simple way to model real-world docking events, and uses a simple camera and LCD setup in order to more accurately simulate FPV control over maneuvers.
 
 
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
+
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -54,21 +51,137 @@ My starter project, the Weevil Eye, is a simple build which lights up when the e
 
 
 ```c++
-void setup() {
-  // put your setup code here, to run once:
+// control three continuous rotation servos with six buttons
+// (two buttons per servo for forward/backward control)
+
+// include servo library
+#include <Servo.h>;
+
+// variables for pins
+// servos
+const int servo1pin = 8;
+const int servo2pin = 9;
+const int servo3pin = 10;
+
+// control buttons
+const int button1 = 2;
+const int button2 = 3;
+const int button3 = 4;
+const int button4 = 5;
+const int button5 = 6;
+const int button6 = 7;
+
+// corresponding variables for button states
+
+int servo1forward;  // button 1 will make servo 1 go forward
+int servo1backward; // button 2 will make servo 1 go backward
+int servo2forward;  // button 3 will make servo 2 go forward
+int servo2backward; // button 4 will make servo 2 go backward
+int servo3forward;  // button 5 will make servo 2 go forward
+int servo3backward; // button 6 will make servo 2 go backward
+
+// servo speeds: a continuous rotation servo
+// will stop when this variable equals 90,
+// spin full speed in one direction when it equals 180,
+// and spin full speed the other direction when it equals 0
+// so, to slow the servos down, change the speed values to make
+// them closer to 90
+const int stopspeed = 90;
+const int forwardspeed = 180;
+const int backwardspeed = 0;
+
+// create servo objects
+Servo servo1;
+Servo servo2;
+Servo servo3;
+
+void setup(){ // setup code that only runs once
+  // attach servo objects to pins
+  servo1.attach(servo1pin);
+  s/Users/ethanwang/Downloads/LiveOV7670-master/src/lib/LiveOV7670Libraryervo2.attach(servo2pin);
+  servo3.attach(servo3pin);
+  // set button pins as inputs with pullup resistors
+  pinMode(button1,INPUT_PULLUP);
+  pinMode(button2,INPUT_PULLUP);
+  pinMode(button3,INPUT_PULLUP);
+  pinMode(button4,INPUT_PULLUP);
+  pinMode(button5,INPUT_PULLUP);
+  pinMode(button6,INPUT_PULLUP);
+  // initialize serial communication
   Serial.begin(9600);
-  Serial.println("Hello World!");
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
+void loop(){ // code that loops forever
+  // read the states of all 6 buttons. We use the "not" operator
+  // (!) to make it so each variable will be HIGH when the corresponding
+  // button is pushed and LOW when it is not pushed.
+  servo1forward = !digitalRead(button1);
+  servo1backward = !digitalRead(button2);
+  servo2forward = !digitalRead(button3);
+  servo2backward = !digitalRead(button4);
+  servo3forward = !digitalRead(button5);
+  servo3backward = !digitalRead(button6);
+  
+  // There are four possibilities for each motor and the
+  // corresponding pair of buttons:
+  // 1: neither button pushed
+  // 2: first button pushed, second button not pushed
+  // 3: first button not pushed, second button pushed
+  // 4: both buttons pushed
+  // we want the motor to spin either forward or backward if one
+  // button is pushed, and not spin at all if neither or both
+  // buttons are pushed
+  
+  // motor 1
+  if(servo1forward && !servo1backward){ // only forward button is pushed
+    servo1.write(forwardspeed);         // set to forward speed
+    Serial.print("Motor 1: Forward  | ");
+  }
+  else if(!servo1forward && servo1backward){ // only backward button pushed
+    servo1.write(backwardspeed);             // set to backward speed
+    Serial.print("Motor 1: Backward | ");
+  }
+  else{ // neither or both buttons are pushed
+    servo1.write(stopspeed);    // stop motor
+    Serial.print("Motor 1: Stopped  | ");
+  }
+  
+  // motor 2
+  if(servo2forward && !servo2backward){ // only forward button is pushed
+    servo2.write(forwardspeed);         // set to forward speed
+    Serial.print("Motor 2: Forward  | ");
+  }
+  else if(!servo2forward && servo2backward){ // only backward button pushed
+    servo2.write(backwardspeed);             // set to backward speed
+    Serial.print("Motor 2: Backward | ");
+  }
+  else{ // neither or both buttons are pushed
+    servo2.write(stopspeed);    // stop motor
+    Serial.print("Motor 2: Stopped  | ");
+  }
+  
+  // motor 3
+  if(servo3forward && !servo3backward){ // only forward button is pushed
+    servo3.write(forwardspeed);         // set to forward speed
+    Serial.println("Motor 3: Forward  | ");
+  }
+  else if(!servo3forward && servo3backward){ // only backward button pushed
+    servo3.write(backwardspeed);             // set to backward speed
+    Serial.println("Motor 3: Backward | ");
+  }
+  else{ // neither or both buttons are pushed
+    servo3.write(stopspeed);    // stop motor
+    Serial.println("Motor 3: Stopped  | ");
+  }
+  
 
 }
 ```
 
 # Bill of Materials
 
-| Elegoo Uno R3 | supports code for servo responses to input | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Elegoo Uno R3 | processes camera inputs and projects them onto LCD screen | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Elegoo Uno Mega| processes servo inputs through buttons|<a href="https://us.elegoo.com/collections/arduino-kits/products/elegoo-mega-2560-r3-board"> Link </a>
 |:--:|:--:|:--:|:--:|
 | PVC pipe|forms frame| $10.20 | <a href="https://www.amazon.com/1-1-Schedule-40-PVC-Pipe/dp/B0C547346F?th=1"> Link </a> |
 | 3 continuous servos| control cable lengths through rotation | $9.82 | <a href="https://www.pololu.com/product/2820"> Link </a> |
