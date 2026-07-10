@@ -33,8 +33,11 @@ For your second milestone, explain what you've worked on since your previous mil
 # First Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MAaRaNteI0c?si=KQu6bAZFjkO3p2qe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 Accomplishments: I finished uplaoding the code, wiring the servos and buttons, and mounting everything within the frame. All servos can operate independently or in unison to execute maneuvers, making the movements more accurate.
+
 Surprises: What has been surprising is the use of buttons to actuate single servos, which makes doing simple maneuvers like moving upward somewhat cumbersome. I'll reprogram the code in order for each button to perform a maneuver with multiple servos actuated(eg moving up, moving down, banking left, banking right). This would make faster changes in direction possible, because with the current button programming, different keybinds are required in order to complete maneuvers, making changes in direction take longer.
+
 Challenges: The main challenge with this milestone was the messy wiring I used for the buttons, which I'll revise once I'm done with the wiring for the camera module. Additionally, learning how to use the different servos was a problem, as I had to use multiple buttons to actuate multiple servos and complete maneuvers. In the future I will be revising this.
+
 Future Goals: I need to complete the shuttle itself, as well as the camera and LCD wiring. Additionally, I need to program the code for the wiring and enable the camera to be mounted within the shuttle, and I need to be able to adjust the camera focus while keeping the camera inside of the shuttle. Finally, as previously stated, I need to reprogram the buttons in order to make maneuvers easier to accomplish.
 
 # Starter Milestone
