@@ -1,5 +1,5 @@
 # Shuttle Motion Simulator
-The Shuttle Motion Simulator uses a cable controlled model shuttle to simulate landing and docking maneuvers. It is a simple way to model real-world docking events, and uses a simple camera and LCD setup in order to more accurately simulate FPV control over maneuvers.
+The Shuttle Motion Simulator uses a cable controlled model shuttle to simulate landing and docking maneuvers. It is a simple way to model real-world docking events, and uses a simple camera and LCD setup in order to more accurately simulate FPV control over maneuvers. 
 
 
 
@@ -14,15 +14,7 @@ The Shuttle Motion Simulator uses a cable controlled model shuttle to simulate l
   
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-
-
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
 
 
 
@@ -40,7 +32,10 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # First Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MAaRaNteI0c?si=KQu6bAZFjkO3p2qe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-I finished the frame, completed the wiring, attached the servos, and uploaded the Arduino program. The servos all work, but I haven't tested them with the cables, as I am still waiting on the dowels. I also began designing the lander module model to place within the frame.
+Accomplishments: I finished uplaoding the code, wiring the servos and buttons, and mounting everything within the frame. All servos can operate independently or in unison to execute maneuvers, making the movements more accurate.
+Surprises: What has been surprising is the use of buttons to actuate single servos, which makes doing simple maneuvers like moving upward somewhat cumbersome. I'll reprogram the code in order for each button to perform a maneuver with multiple servos actuated(eg moving up, moving down, banking left, banking right). This would make faster changes in direction possible, because with the current button programming, different keybinds are required in order to complete maneuvers, making changes in direction take longer.
+Challenges: The main challenge with this milestone was the messy wiring I used for the buttons, which I'll revise once I'm done with the wiring for the camera module. Additionally, learning how to use the different servos was a problem, as I had to use multiple buttons to actuate multiple servos and complete maneuvers. In the future I will be revising this.
+Future Goals: I need to complete the shuttle itself, as well as the camera and LCD wiring. Additionally, I need to program the code for the wiring and enable the camera to be mounted within the shuttle, and I need to be able to adjust the camera focus while keeping the camera inside of the shuttle. Finally, as previously stated, I need to reprogram the buttons in order to make maneuvers easier to accomplish.
 
 # Starter Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oA3Xlxy_Wso?si=tPOvhmSEODm8cOr3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
