@@ -1,5 +1,5 @@
 # Shuttle Motion Simulator
-The Shuttle Motion Simulator uses a cable controlled model shuttle to simulate landing and docking maneuvers. It is a simple way to model real-world docking events, and uses a simple camera and LCD setup in order to more accurately simulate FPV control over maneuvers. 
+The Shuttle Motion Simulator uses a cable controlled model shuttle to simulate landing and docking maneuvers. It is a simple way to model real-world docking events, and uses a simple camera and LCD setup in order to more accurately simulate FPV control over maneuvers. I chose this project and the addition of a camera and display because of my interest in aerospace and my goal to practice better wire management due to the usage of two arduinos and separate systems.
 
 
 
@@ -7,8 +7,6 @@ The Shuttle Motion Simulator uses a cable controlled model shuttle to simulate l
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Ethan W | Basis Independent Silicon Valley | Mechanical Engineering | Incoming Sophomore
-
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headshot](Ethan_W.jpg)
   
@@ -46,7 +44,7 @@ Future Goals: I need to complete the shuttle itself, as well as the camera and L
 My starter project, the Weevil Eye, is a simple build which lights up when the environment around it is dark. It uses a photoresistor in order to change light output as light in the environment decreases because its resistance varies with light exposure.
  
 
-
+Code:
 
 ```c++
 // control three continuous rotation servos with six buttons
