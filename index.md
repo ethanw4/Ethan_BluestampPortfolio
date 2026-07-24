@@ -18,8 +18,14 @@ The Shuttle Motion Simulator uses a cable controlled model shuttle to simulate l
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<iframe width="560" height="315" src="https://youtu.be/8HalHi81rF8?si=jJ6Dv1qKAJbSUk7u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Accomplishments: I added a camera and LCD to display the camera footage, allowing for easier use(the screen lets the user monitor the craft's position while still keeping the buttons in view. The wiring to the LCD is long enough so that the addition of these components does not affect the craft's range of motion except at low altitude, where cable tension is affected by the contact of the cables with the ground. 
 
+Surprises: The main surprise was the quality of the camera footage, which was better than I expected. The small size of the screen somewhat limited visibility, as did the fixed position of the camera, but maneuvering the craft alleviated this issue. Additionally, the use of the Nano helped keep the messier wiring on the craft, allowing the breadboard for the LCD and the control panel to be neat and easier to use.
+
+Challenges: The main challenge was getting the LCD to display good quality footage. I rewired the camera+LCD setup six times in total. The first four attempts were done with the Arduino Uno and failed due to poor messy wiring, which led to the screen flashing white and re-registering the camera(essentially like restarting a computer). I improved my wire management significantly with the fifth wiring attenpt, but due to the distance from the camera to the Arduino Uno(the maneuvering of the craft necessitated long jumper wires), the signals traveled too slowly from the camera to the arduino, leading to jumbled footage. On the sixth attempt, the usage of the Arduino Nano mounted onto the camera rig itself helped significantly, as this enabled short wires from the camera to the arduino and less wiring in general, keeping the wiring for the LCD much cleaner.
+
+Future Goals: I need to finish mounting the camera rig to the cables, which requires the addition of another power source(probably a battery) to power the Arduino Nano, as well as some way to put all the wiring and breadboards onto the camera rig.
 
 
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
@@ -30,7 +36,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # First Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MAaRaNteI0c?si=KQu6bAZFjkO3p2qe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-Accomplishments: I finished uplaoding the code, wiring the servos and buttons, and mounting everything within the frame. All servos can operate independently or in unison to execute maneuvers, making the movements more accurate.
+Accomplishments: I finished uploading the code, wiring the servos and buttons, and mounting everything within the frame. All servos can operate independently or in unison to execute maneuvers, making the movements more accurate.
 
 Surprises: What has been surprising is the use of buttons to actuate single servos, which makes doing simple maneuvers like moving upward somewhat cumbersome. I'll reprogram the code in order for each button to perform a maneuver with multiple servos actuated(eg moving up, moving down, banking left, banking right). This would make faster changes in direction possible, because with the current button programming, different keybinds are required in order to complete maneuvers, making changes in direction take longer.
 
