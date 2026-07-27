@@ -12,9 +12,16 @@ The Shuttle Motion Simulator uses a cable controlled model shuttle to simulate l
   
 # Final Milestone
 <iframe width="560" height="315" src="https://youtu.be/3MHO_wMmPMY?si=_NkFVWMP7FfsYIVZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Accomplishments: I attached the camera, Arduino Nano, breadboards, and batteries to the camera rig, and tied together the LCD cables. I also mounted the LCD breadboard at an angle so the footage was easier to see, as well as mounting both breadboards and the Arduino Mega onto this folding backer as a laptop-like display/control interface. 
 
-# Second Milestone
-https://youtu.be/8HalHi81rF8?si=jJ6Dv1qKAJbSUk7u 
+Surprises: The main surprise was the weight of the camera rig components, which made the servos somewhat slower. Additionally, the range of motion wasn't affected much.
+
+Challenges: The main challenge was putting the breadboards, batteries, camera, and Nano onto the rig, which was designed to just fit the camera. This caused the wires to stick out a bit, although this wasn't an issue due to the batteries also making the rig taller. However, the mounting of the battery on the left caused balance issues because the right side wasn't heavy enough to maintain cable tension when banking right. To compensate for this, I mounted a battery on the right wing as a counterweight, which resolved the issue somewhat.
+
+Future Goals: one of the main flaws of the current camera rig is its limited range of motion, caused by the lack of a fourth servo. Adding a fourth servo would allow it to move around more while also making it more stable.
+
+
+# Second Milestone 
 <iframe width="560" height="315" src="https://youtu.be/8HalHi81rF8?si=jJ6Dv1qKAJbSUk7u " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 Accomplishments: I added a camera and LCD to display the camera footage, allowing for easier use(the screen lets the user monitor the craft's position while still keeping the buttons in view. The wiring to the LCD is long enough so that the addition of these components does not affect the craft's range of motion except at low altitude, where cable tension is affected by the contact of the cables with the ground. 
 
