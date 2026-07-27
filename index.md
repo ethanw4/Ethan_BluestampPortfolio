@@ -11,8 +11,8 @@ The Shuttle Motion Simulator uses a cable controlled model shuttle to simulate l
 ![Headshot](Ethan_W.jpg)
   
 # Final Milestone
-
-
+https://youtu.be/3MHO_wMmPMY?si=_NkFVWMP7FfsYIVZ
+<iframe width="560" height="315" src="[https://youtu.be/8HalHi81rF8?si=jJ6Dv1qKAJbSUk7u](https://youtu.be/3MHO_wMmPMY?si=_NkFVWMP7FfsYIVZ)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
