@@ -13,11 +13,9 @@ The Shuttle Motion Simulator uses a cable controlled model shuttle to simulate l
 # Final Milestone
 <iframe width="560" height="315" src="https://youtu.be/3MHO_wMmPMY?si=_NkFVWMP7FfsYIVZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-
 # Second Milestone
-
-<iframe width="560" height="315" src="https://youtu.be/8HalHi81rF8?si=jJ6Dv1qKAJbSUk7u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+https://youtu.be/8HalHi81rF8?si=jJ6Dv1qKAJbSUk7u 
+<iframe width="560" height="315" src="https://youtu.be/8HalHi81rF8?si=jJ6Dv1qKAJbSUk7u " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 Accomplishments: I added a camera and LCD to display the camera footage, allowing for easier use(the screen lets the user monitor the craft's position while still keeping the buttons in view. The wiring to the LCD is long enough so that the addition of these components does not affect the craft's range of motion except at low altitude, where cable tension is affected by the contact of the cables with the ground. 
 
 Surprises: The main surprise was the quality of the camera footage, which was better than I expected. The small size of the screen somewhat limited visibility, as did the fixed position of the camera, but maneuvering the craft alleviated this issue. Additionally, the use of the Nano helped keep the messier wiring on the craft, allowing the breadboard for the LCD and the control panel to be neat and easier to use.
