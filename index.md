@@ -199,8 +199,6 @@ void loop(){ // code that loops forever
 | tactile switches| actuate servos|$1.15|<a href="https://www.mouser.com/en/ProductDetail/Same-Sky/TS02-66-150-BK-260-SCR-D?qs=A6eO%252BMLsxmT3g3T2zPed5Q%3D%3D&mgh=1&utm_id=17222215321&utm_source=google&utm_medium=cpc&utm_marketing_tactic=amercorp&gad_source=4&gad_campaignid=17219204619&gbraid=0AAAAADn_wf30aK2ysrJSktVlo5IErdyn2"> Link </a> |
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
+- LCD/Camera programming:([https://trashytuber.github.io/YimingJiaBlueStamp/](https://github.com/indrekluuk/LiveOV7670))
 
 To watch the BSE tutorial on how to create a portfolio, click here.
