@@ -11,7 +11,7 @@ The Shuttle Motion Simulator uses a cable controlled model shuttle to simulate l
 ![Headshot](finalphoto.jpeg)
   
 # Final Milestone
-<iframe width="560" height="315" src="https://youtu.be/3MHO_wMmPMY?si=747EEinaN3qETT1i" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=3MHO_wMmPMY" allowfullscreen></iframe>
 Accomplishments: I attached the camera, Arduino Nano, breadboards, and batteries to the camera rig, and tied together the LCD cables. I also mounted the LCD breadboard at an angle so the footage was easier to see, as well as mounting both breadboards and the Arduino Mega onto this folding backer as a laptop-like display/control interface. 
 
 Surprises: The main surprise was the weight of the camera rig components, which made the servos somewhat slower. Additionally, the range of motion wasn't affected much.
@@ -22,7 +22,7 @@ Future Goals: one of the main flaws of the current camera rig is its limited ran
 
 
 # Second Milestone 
-<iframe width="560" height="315" src="https://youtu.be/8HalHi81rF8?si=HM5x63NaGo7j7wCJ" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=8HalHi81rF8" allowfullscreen></iframe>
 Accomplishments: I added a camera and LCD to display the camera footage, allowing for easier use(the screen lets the user monitor the craft's position while still keeping the buttons in view. The wiring to the LCD is long enough so that the addition of these components does not affect the craft's range of motion except at low altitude, where cable tension is affected by the contact of the cables with the ground. 
 
 Surprises: The main surprise was the quality of the camera footage, which was better than I expected. The small size of the screen somewhat limited visibility, as did the fixed position of the camera, but maneuvering the craft alleviated this issue. Additionally, the use of the Nano helped keep the messier wiring on the craft, allowing the breadboard for the LCD and the control panel to be neat and easier to use.
