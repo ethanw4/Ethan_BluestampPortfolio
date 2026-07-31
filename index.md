@@ -193,12 +193,15 @@ void loop(){ // code that loops forever
 | Elegoo Uno Mega| processes servo inputs through buttons|<a href="https://us.elegoo.com/collections/arduino-kits/products/elegoo-mega-2560-r3-board"> Link </a>
 |:--:|:--:|:--:|:--:|
 | PVC pipe|forms frame| $10.20 | <a href="https://www.amazon.com/1-1-Schedule-40-PVC-Pipe/dp/B0C547346F?th=1"> Link </a> |
+
 | 3 continuous servos| control cable lengths through rotation | $9.82 | <a href="https://www.pololu.com/product/2820"> Link </a> |
+
 | breadboard| connects buttons and servos to arduino | $7.99 | <a href="https://www.sciencepurchase.com/products/03mb801?variant=39970685583533&currency=USD&utm_source=google&utm_medium=organic&utm_campaign=SP%20-%20Google%20Shopping&utm_content=Solderless%20Breadboard%2C%20400%20Tie-Points%2C%202%20Distribution%20Strips%2C%203.3%20x%202.1%20x%200.3%20Inches&gad_source=1&gad_campaignid=19633918734&gbraid=0AAAAAohSh8DXgBlEBmZVh0XJjJS3tojJR"> Link </a> |
+
 | jumper wires| connect different components together, either directly or through breadboard|$15.55|<a href="https://www.schoolspecialty.com/elenco-jumper-wire-kit-350-pieces-1400717?utm_source=google&utm_medium=cpc&utm_campaign=%28ROI%29%20Standard%20Shopping%20-%20Catch%20All&utm_id=22287672392&utm_content=176056289016&utm_term=&gad_source=4&gad_campaignid=22287672392&gbraid=0AAAAADzuAIKqBZWO7RtdyMsAnlGckWCom"> Link </a> |
+
 | tactile switches| actuate servos|$1.15|<a href="https://www.mouser.com/en/ProductDetail/Same-Sky/TS02-66-150-BK-260-SCR-D?qs=A6eO%252BMLsxmT3g3T2zPed5Q%3D%3D&mgh=1&utm_id=17222215321&utm_source=google&utm_medium=cpc&utm_marketing_tactic=amercorp&gad_source=4&gad_campaignid=17219204619&gbraid=0AAAAADn_wf30aK2ysrJSktVlo5IErdyn2"> Link </a> |
 # Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - LCD/Camera programming:([https://trashytuber.github.io/YimingJiaBlueStamp/](https://github.com/indrekluuk/LiveOV7670))
 
-To watch the BSE tutorial on how to create a portfolio, click here.
+
