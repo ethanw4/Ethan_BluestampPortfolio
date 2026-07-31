@@ -183,6 +183,9 @@ void loop(){ // code that loops forever
 
 }
 ```
+### Schematic
+![Headshot](schematic1.jpeg)
+![Headshot](schematic2.jpeg)
 
 # Bill of Materials
 
