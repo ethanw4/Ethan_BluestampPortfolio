@@ -11,7 +11,7 @@ The Shuttle Motion Simulator uses a cable controlled model shuttle to simulate l
 ![Headshot](finalphoto.jpeg)
   
 # Final Milestone
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=3MHO_wMmPMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3MHO_wMmPMY?si=4954RUewBPZpwe28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Accomplishments: I attached the camera, Arduino Nano, breadboards, and batteries to the camera rig, and tied together the LCD cables. I also mounted the LCD breadboard at an angle so the footage was easier to see, as well as mounting both breadboards and the Arduino Mega onto this folding backer as a laptop-like display/control interface. 
 
@@ -23,7 +23,7 @@ Future Goals: one of the main flaws of the current camera rig is its limited ran
 
 
 # Second Milestone 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=8HalHi81rF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8HalHi81rF8?si=zhgvZlr1j636D0m3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Accomplishments: I added a camera and LCD to display the camera footage, allowing for easier use(the screen lets the user monitor the craft's position while still keeping the buttons in view. The wiring to the LCD is long enough so that the addition of these components does not affect the craft's range of motion except at low altitude, where cable tension is affected by the contact of the cables with the ground. 
 
